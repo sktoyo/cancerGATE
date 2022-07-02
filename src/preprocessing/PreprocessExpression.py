@@ -1,12 +1,10 @@
 import pandas as pd
-import os
 
 
 class PreprocessExpression:
     def __init__(self, tissue, cancer_type):
         self.expression_path = "../../data/expression/"
         self.mutation_path = "../../data/mutation/"
-        self.network_path = "../../data/network/"
         self.tissue = tissue
         self.cancer_type = cancer_type
 
@@ -20,7 +18,7 @@ class PreprocessExpression:
         gtex_exp_df = self.get_gtex_exp_df()
         gtex_exp_df = self.filter_sparse_expression(gtex_exp_df)
 
-        tcga_exp_df = self.get_TCGA_exp_df()
+        tcga_exp_df = self.get_tcga_exp_df()
         tcga_exp_df = self.filter_sparse_expression(tcga_exp_df)
         tcga_exp_df = self.preprocess_sample_barcode(tcga_exp_df)
         tcga_exp_df = self.filter_tcga_samples(tcga_exp_df)
@@ -28,9 +26,25 @@ class PreprocessExpression:
         gtex_exp_df, tcga_exp_df = self.get_index_intersection(gtex_exp_df, tcga_exp_df)
         subtype_exp_dict = self.get_subtype_exp_dict(gtex_exp_df, tcga_exp_df)
         subtype_exp_dict = self.get_average_exp(subtype_exp_dict)
+        subtype_exp_dict = self.log_transformation(subtype_exp_dict)
         return subtype_exp_dict
 
-    def preprocess_sample_barcode(self, tcga_exp_df):
+    @staticmethod
+    def log_transformation(subtype_exp_dict):
+        import numpy as np
+        for subtype in subtype_exp_dict:
+            subtype_exp_dict[subtype] = np.log(subtype_exp_dict[subtype])
+        return subtype_exp_dict
+
+    @staticmethod
+    def preprocess_sample_barcode(tcga_exp_df):
+        """
+        Cleaning the TCGA barcode format, remain first 4 keys
+
+        param tcga_exp_df:
+
+        return: tcga_exp_df
+        """
         columns = tcga_exp_df.columns.to_list()
         preprocessed_columns = list()
         for column in columns:
@@ -69,7 +83,7 @@ class PreprocessExpression:
         #     gtex_exp_df = self.get_tissue_gtex()
         # return gtex_exp_df
 
-    def get_TCGA_exp_df(self):
+    def get_tcga_exp_df(self):
         """
         Get the GTEx TPM data, filter related tissue only dataframe
 
