@@ -20,24 +20,8 @@ def preprocess():
 
     subtype_exp_dict, subtype_mut_dict = filter_experiment_genes(subtype_exp_dict, subtype_mut_dict, network_edges)
 
+    gene_index_dict = get_save_gene_index(subtype_exp_dict)
 
-def filter_experiment_genes(subtype_exp_dict, subtype_mut_dict, network_edges):
-
-    intersection_genes = get_intersection_genes(subtype_exp_dict, subtype_mut_dict, network_edges)
-    subtype_exp_dict = filter_expression_genes(subtype_exp_dict, intersection_genes)
-    subtype_mut_dict = filter_mutation_genes(subtype_mut_dict, intersection_genes)
-    return subtype_exp_dict, subtype_mut_dict
-
-
-    # 있다가 확인하면 작업할 부분들
-    ##############
-    # save gene names and index in the network
-    gene_index_dict = dict()
-    with open(preprocess_dir + 'gene_index.tsv', 'w') as f:
-        for i in range(len(exp_gene_list)):
-            gene_info = [str(i), exp_gene_list[i]]
-            gene_index_dict[exp_gene_list[i]] = i
-            f.write('\t'.join(gene_info) + '\n')
 
     # # change symbol to gene index in gene_index_dict
     humannet_edges = [[gene_index_dict[edge[0]], gene_index_dict[edge[1]]] for edge in humannet_edges]
@@ -134,4 +118,42 @@ def filter_mutation_genes(subtype_mut_dict, intersection_genes):
     return subtype_mut_dict
 
 
+def filter_experiment_genes(subtype_exp_dict, subtype_mut_dict, network_edges):
+
+    intersection_genes = get_intersection_genes(subtype_exp_dict, subtype_mut_dict, network_edges)
+    subtype_exp_dict = filter_expression_genes(subtype_exp_dict, intersection_genes)
+    subtype_mut_dict = filter_mutation_genes(subtype_mut_dict, intersection_genes)
+    return subtype_exp_dict, subtype_mut_dict
+
+
+def get_save_gene_index(subtype_exp_dict):
+    """
+    Save gene index in tsv file
+
+    param subtype_exp_dict:
+
+    return: gene_index_dict
+    """
+    import pandas as pd
+    gene_index_dict = get_gene_index(subtype_exp_dict)
+    gene_index = pd.Series(gene_index_dict, name='index')
+    gene_index_df = pd.DataFrame(gene_index)
+    gene_index_df.to_csv('../../data/gene_index.tsv', sep='\t')
+    return gene_index_dict
+
+
+def get_gene_index(subtype_exp_dict):
+    """
+    Get gene index from experiment list
+
+    return
+    """
+    gene_index_dict = dict()
+    exp_gene_list = subtype_exp_dict.index.tolist()
+    for i in range(len(exp_gene_list)):
+        gene_info = [str(i), exp_gene_list[i]]
+        gene_index_dict[exp_gene_list[i]] = i
+    return gene_index_dict
+
 preprocess()
+
