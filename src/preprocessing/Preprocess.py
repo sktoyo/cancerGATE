@@ -16,57 +16,16 @@ def preprocess():
     experiment_genes = get_experiment_genes(subtype_exp_dict, subtype_mut_dict)
     pre_net = PreprocessNetwork('humannet_edges_FN', experiment_genes)
     network_edges = pre_net.preprocess()
-    print(len(network_edges))
 
     subtype_exp_dict, subtype_mut_dict = filter_experiment_genes(subtype_exp_dict, subtype_mut_dict, network_edges)
 
     gene_index_dict = get_save_gene_index(subtype_exp_dict)
+    network_edges = convert_symbol2index(network_edges, gene_index_dict)
+    network_edges = transpose_network_edges(network_edges)
 
-
-    # # change symbol to gene index in gene_index_dict
-    humannet_edges = [[gene_index_dict[edge[0]], gene_index_dict[edge[1]]] for edge in humannet_edges]
-
-    humannet_edges_node1 = [edge[0] for edge in humannet_edges]
-    humannet_edges_node2 = [edge[1] for edge in humannet_edges]
-
-    ##############
-    def min_max_normalization(df):
-        if sum(df.max() - df.min()) != 0:
-            result = (df - df.min()) / (df.max() - df.min())
-        else:
-            result = df
-        return result
-
-    orig_subtype_dict = getSubtypeDict()
-    subtype_dict = dict()
-    for key, value in orig_subtype_dict.items():
-        if value in subtype_dict.keys():
-            subtype_dict[value].append(key)
-        else:
-            subtype_dict[value] = [key]
-
-    subtype_list = [subtype for subtype in subtype_dict.keys()]
-    subtype_list.append('Tumor')
-
-    with open(preprocess_dir + 'subtypes_exp_dict_raw.pickle', 'wb') as f:
-        pickle.dump(subtype_expression_dict, f)
-
-    ##############
-    for subtype in subtype_list:
-        subtype_expression_dict[subtype] = min_max_normalization(subtype_expression_dict[subtype])
-        subtype_mutation_dict[subtype] = min_max_normalization(subtype_mutation_dict[subtype])
-
-    if average:
-        with open(preprocess_dir + 'subtypes_exp_dict.pickle', 'wb') as f:
-            pickle.dump(subtype_expression_dict, f)
-    else:
-        with open(preprocess_dir + 'subtypes_exp_dict_ori.pickle', 'wb') as f:
-            pickle.dump(subtype_expression_dict, f)
-
-    with open(preprocess_dir + 'subtypes_mutation_dict.pickle', 'wb') as f:
-        pickle.dump(subtype_mutation_dict, f)
-    with open(preprocess_dir + 'humannet_node1_node2.pickle', 'wb') as f:
-        pickle.dump([humannet_edges_node1, humannet_edges_node2], f)
+    subtype_experiment_dict = concat_exp_mut(subtype_exp_dict, subtype_mut_dict)
+    save_preprocess_results(subtype_experiment_dict, network_edges)
+    return 0
 
 
 def get_experiment_genes(subtype_exp_dict, subtype_mut_dict):
@@ -83,6 +42,24 @@ def get_experiment_genes(subtype_exp_dict, subtype_mut_dict):
     mutation_gene_list = subtype_mut_dict['Tumor'].index.to_list()
     experiment_genes = list(set(expression_gene_list) & set(mutation_gene_list))
     return experiment_genes
+
+
+def filter_experiment_genes(subtype_exp_dict, subtype_mut_dict, network_edges):
+    """
+    Filter the gene in expression and mutation dataframe by intersection of expression, network, mutation
+
+    param subtype_exp_dict:
+
+    param subtype_mut_dict:
+
+    param network_edges:
+
+    return: filtered expression data and mutation data
+    """
+    intersection_genes = get_intersection_genes(subtype_exp_dict, subtype_mut_dict, network_edges)
+    subtype_exp_dict = filter_gene_index(subtype_exp_dict, intersection_genes)
+    subtype_mut_dict = filter_gene_index(subtype_mut_dict, intersection_genes)
+    return subtype_exp_dict, subtype_mut_dict
 
 
 def get_intersection_genes(subtype_exp_dict, subtype_mut_dict, network_edges):
@@ -104,26 +81,17 @@ def get_intersection_genes(subtype_exp_dict, subtype_mut_dict, network_edges):
     return intersection_genes
 
 
-def filter_expression_genes(subtype_exp_dict, intersection_genes):
-    for subtype in subtype_exp_dict:
-        subtype_exp_dict[subtype] = subtype_exp_dict[subtype][
-            subtype_exp_dict[subtype].index.isin(intersection_genes)]
-    return subtype_exp_dict
-
-
-def filter_mutation_genes(subtype_mut_dict, intersection_genes):
-    for subtype in subtype_mut_dict:
-        subtype_mut_dict[subtype] = subtype_mut_dict[subtype][
-            subtype_mut_dict[subtype].index.isin(intersection_genes)]
-    return subtype_mut_dict
-
-
-def filter_experiment_genes(subtype_exp_dict, subtype_mut_dict, network_edges):
-
-    intersection_genes = get_intersection_genes(subtype_exp_dict, subtype_mut_dict, network_edges)
-    subtype_exp_dict = filter_expression_genes(subtype_exp_dict, intersection_genes)
-    subtype_mut_dict = filter_mutation_genes(subtype_mut_dict, intersection_genes)
-    return subtype_exp_dict, subtype_mut_dict
+def filter_gene_index(subtype_dict, intersection_genes):
+    """
+    Filter the gene in expression dataframe by intersection of expression, network, mutation
+    :param subtype_dict:
+    :param intersection_genes:
+    :return:
+    """
+    for subtype in subtype_dict:
+        subtype_dict[subtype] = subtype_dict[subtype][
+            subtype_dict[subtype].index.isin(intersection_genes)]
+    return subtype_dict
 
 
 def get_save_gene_index(subtype_exp_dict):
@@ -149,11 +117,77 @@ def get_gene_index(subtype_exp_dict):
     return
     """
     gene_index_dict = dict()
-    exp_gene_list = subtype_exp_dict.index.tolist()
+    exp_gene_list = subtype_exp_dict['Tumor'].index.tolist()
     for i in range(len(exp_gene_list)):
-        gene_info = [str(i), exp_gene_list[i]]
         gene_index_dict[exp_gene_list[i]] = i
     return gene_index_dict
+
+
+def convert_symbol2index(network_edges, gene_index_dict):
+    """
+    Change symbol to gene index in gene_index_dict
+
+    param network_edges:
+
+    param gene_index_dict:
+
+    return: network_edges in index
+    """
+    network_edges = [[gene_index_dict[edge[0]], gene_index_dict[edge[1]]] for edge in network_edges]
+    return network_edges
+
+
+def transpose_network_edges(network_edges):
+    """
+    Transpose the shape of network edges (num_edges, 2) -> (2, num_edges)
+    param network_edges:
+    return: transposed network_edges
+    """
+
+    network_node1 = [edge[0] for edge in network_edges]
+    network_node2 = [edge[1] for edge in network_edges]
+    return [network_node1, network_node2]
+
+
+def min_max_normalization(df):
+    if sum(df.max() - df.min()) != 0:
+        result = (df - df.min()) / (df.max() - df.min())
+    else:
+        result = df
+    return result
+
+
+def concat_exp_mut(subtype_exp_dict, subtype_mut_dict):
+    """
+    Concatenate expression data and mutation data
+    :return: subtype_experiment_dict
+    """
+    import pandas as pd
+    subtype_experiment_dict = dict()
+    for subtype in subtype_exp_dict:
+        exp_df = subtype_exp_dict[subtype]
+        mut_df = subtype_mut_dict[subtype]
+        concat_df = pd.concat([exp_df, mut_df], axis=1)
+        subtype_experiment_dict[subtype] = concat_df
+
+    return subtype_experiment_dict
+
+
+def save_preprocess_results(subtype_experiment_dict, network_edges):
+    """
+    Save preprocessing results
+    :param subtype_experiment_dict:
+    :param network_edges:
+    :return: 0
+    """
+    preprocess_results = dict()
+    preprocess_results['edge_index'] = network_edges
+    preprocess_results['subtype_x'] = subtype_experiment_dict
+    import pickle
+    with open("../../data/" + 'input_data.pkl', 'wb') as f:
+        pickle.dump(preprocess_results, f)
+    return 0
+
 
 preprocess()
 
