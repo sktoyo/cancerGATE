@@ -1,6 +1,6 @@
-from PreprocessExpression import *
-from PreprocessMutation import *
-from PreprocessNetwork import *
+from preprocessing.PreprocessExpression import *
+from preprocessing.PreprocessMutation import *
+from preprocessing.PreprocessNetwork import *
 
 
 def preprocess():
@@ -25,7 +25,7 @@ def preprocess():
 
     subtype_experiment_dict = concat_exp_mut(subtype_exp_dict, subtype_mut_dict)
     save_preprocess_results(subtype_experiment_dict, network_edges)
-    return 0
+    return subtype_experiment_dict
 
 
 def get_experiment_genes(subtype_exp_dict, subtype_mut_dict):
@@ -166,7 +166,10 @@ def concat_exp_mut(subtype_exp_dict, subtype_mut_dict):
     subtype_experiment_dict = dict()
     for subtype in subtype_exp_dict:
         exp_df = subtype_exp_dict[subtype]
+        exp_df = min_max_normalization(exp_df)
         mut_df = subtype_mut_dict[subtype]
+        if not subtype == 'Normal':
+            mut_df = min_max_normalization(mut_df)
         concat_df = pd.concat([exp_df, mut_df], axis=1)
         subtype_experiment_dict[subtype] = concat_df
 
@@ -189,4 +192,15 @@ def save_preprocess_results(subtype_experiment_dict, network_edges):
     return 0
 
 
-preprocess()
+def load_preprocess_results():
+    """
+    lod preprocessing result
+    return: 'dict' of edge_index and expression data
+    """
+    import pickle
+    with open("../data/input_data.pkl", 'rb') as f:
+        return pickle.load(f)
+
+
+if __name__ == '__main__':
+    subtype_experiment_dict = preprocess()
