@@ -1,4 +1,5 @@
 import torch
+from torch.autograd import Variable
 from torch_geometric.nn import GAE, GCNConv, GATConv
 
 
@@ -8,15 +9,18 @@ class GATE(GAE):
         self.feat_decoder = feat_decoder
         self.feat_loss = torch.nn.MSELoss()
 
-    def feature_loss(self, x, edge_index):
-        z = self.encoder(x, edge_index)
+    def feature_loss(self, x, z):
         x_recon = self.feat_decoder(z)
         features_loss = self.feat_loss(x, x_recon)
         return features_loss
 
-    def total_loss(self, x, edge_index, alpha):
-        structure_loss = self.recon_loss(x, edge_index)
-        feature_loss = self.feature_loss(x, edge_index)
+    def structure_loss(self, z, edge_index):
+        structure_loss = self.recon_loss(z, edge_index)
+        return structure_loss
+
+    def total_loss(self, x, z, edge_index, alpha=1):
+        feature_loss = self.feature_loss(x, z)
+        structure_loss = self.structure_loss(z, edge_index)
         return structure_loss + alpha * feature_loss
 
     def get_attention(self, x, edge_index):
@@ -64,19 +68,20 @@ class FeatDecoder(torch.nn.Module):
         return recon_x
 
 
-print(torch.ones((3,4)))
+if __name__ == "__main__":
+    print(torch.ones((3,4)))
 
-encoder = GATEncoder([13, 64, 32])
-print(encoder.conv1.lin_src.weight.shape)
-print(encoder.conv2.lin_src.weight.shape)
-feat_decoder = FeatDecoder(encoder)
-model = GATE(encoder, feat_decoder)
+    encoder = GATEncoder([13, 64, 32])
+    print(encoder.conv1.lin_src.weight.shape)
+    print(encoder.conv2.lin_src.weight.shape)
+    feat_decoder = FeatDecoder(encoder)
+    model = GATE(encoder, feat_decoder)
 
-import numpy as np
-test_x = np.random.rand(100, 13)
-test_network = np.random.randint(99, size=(2, 1000))
+    import numpy as np
+    test_x = np.random.rand(100, 13)
+    test_network = np.random.randint(99, size=(2, 1000))
 
-test_x = torch.Tensor(test_x)
-test_network = torch.LongTensor(test_network)
-print(model.total_loss(test_x, test_network, 1))
-print(model.feat_decoder(model.encoder(test_x,test_network)).shape)
+    test_x = torch.Tensor(test_x)
+    test_network = torch.LongTensor(test_network)
+    print(model.total_loss(test_x, test_network, 1))
+    print(model.feat_decoder(model.encoder(test_x,test_network)).shape)
