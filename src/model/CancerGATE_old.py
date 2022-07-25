@@ -5,14 +5,14 @@ from dgl.nn.tensorflow import GATConv
 class CancerGATE(tf.keras.Model):
     def __init__(self,
                  g,
-                 in_dims,
                  dim_hiddens,
                  heads,
                  activation,
                  feat_drop,
                  attn_drop,
                  negative_slope,
-                 residual):
+                 residual,
+                 in_dims):
         super(CancerGATE, self).__init__()
         self.g = g
         self.dim_list = dim_hiddens
