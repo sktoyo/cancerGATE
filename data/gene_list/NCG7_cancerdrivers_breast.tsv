@@ -1,0 +1,527 @@
+entrez	symbol	pubmed_id	type	organ_system	primary_site	cancer_type	method	coding_status	cgc_annotation	vogelstein_annotation	saito_annotation	NCG_oncogene	NCG_tsg
+91	ACVR1B	20668451	Gene Panel	Gynecologic	breast	breast_cancer	Wood-based	coding		TSG		0	1
+324	APC	27135926	WGS	Gynecologic	breast	breast_cancer	Paper-specific	coding	TSG	TSG	TSG	0	1
+324	APC	22722201	WES	Gynecologic	breast	breast_cancer	Greenman-based	coding	TSG	TSG	TSG	0	1
+324	APC	26939876	Gene Panel	Gynecologic	breast	triple_negative_breast_cancer	"Recurrence-based, Paper-specific"	coding	TSG	TSG	TSG	0	1
+324	APC	26099045	WGS	Gynecologic	breast	breast_cancer	"Recurrence-based, Literature-based"	coding	TSG	TSG	TSG	0	1
+355	FAS	26939876	Gene Panel	Gynecologic	breast	triple_negative_breast_cancer	"Recurrence-based, Paper-specific"	coding	TSG			0	1
+472	ATM	27135926	WGS	Gynecologic	breast	breast_cancer	Paper-specific	coding	TSG	TSG	TSG	0	1
+472	ATM	26939876	Gene Panel	Gynecologic	breast	triple_negative_breast_cancer	"Recurrence-based, Paper-specific"	coding	TSG	TSG	TSG	0	1
+545	ATR	27135926	WGS	Gynecologic	breast	breast_cancer	Paper-specific	coding	TSG			0	1
+545	ATR	26099045	WGS	Gynecologic	breast	breast_cancer	"Recurrence-based, Literature-based"	coding	TSG			0	1
+546	ATRX	27135926	WGS	Gynecologic	breast	breast_cancer	Paper-specific	coding	TSG	TSG	TSG	0	1
+639	PRDM1	27135926	WGS	Gynecologic	breast	breast_cancer	Paper-specific	coding	TSG	TSG		0	1
+672	BRCA1	27135926	WGS	Gynecologic	breast	breast_cancer	Paper-specific	coding	TSG	TSG	TSG	0	1
+672	BRCA1	27161491	Gene Panel	Gynecologic	breast	breast_cancer	Recurrence-based	coding	TSG	TSG	TSG	0	1
+672	BRCA1	22722201	WES	Gynecologic	breast	breast_cancer	Greenman-based	coding	TSG	TSG	TSG	0	1
+672	BRCA1	26099045	WGS	Gynecologic	breast	breast_cancer	"Recurrence-based, Literature-based"	coding	TSG	TSG	TSG	0	1
+675	BRCA2	27135926	WGS	Gynecologic	breast	breast_cancer	Paper-specific	coding	TSG	TSG		0	1
+675	BRCA2	27161491	Gene Panel	Gynecologic	breast	breast_cancer	Recurrence-based	coding	TSG	TSG		0	1
+675	BRCA2	22722201	WES	Gynecologic	breast	breast_cancer	Greenman-based	coding	TSG	TSG		0	1
+675	BRCA2	26939876	Gene Panel	Gynecologic	breast	triple_negative_breast_cancer	"Recurrence-based, Paper-specific"	coding	TSG	TSG		0	1
+675	BRCA2	26099045	WGS	Gynecologic	breast	breast_cancer	"Recurrence-based, Literature-based"	coding	TSG	TSG		0	1
+701	BUB1B	27135926	WGS	Gynecologic	breast	breast_cancer	Paper-specific	coding	TSG			0	1
+841	CASP8	26451490	WES	Gynecologic	breast	breast_cancer	MutSig	coding	TSG	TSG	TSG	0	1
+841	CASP8	27135926	WGS	Gynecologic	breast	breast_cancer	Paper-specific	coding	TSG	TSG	TSG	0	1
+841	CASP8	22722201	WES	Gynecologic	breast	breast_cancer	Greenman-based	coding	TSG	TSG	TSG	0	1
+841	CASP8	26099045	WGS	Gynecologic	breast	breast_cancer	"Recurrence-based, Literature-based"	coding	TSG	TSG	TSG	0	1
+861	RUNX1	23000897	WES	Gynecologic	breast	breast_cancer	MuSiC	coding	"oncogene, TSG, fusion"	TSG	TSG	0	1
+861	RUNX1	26451490	WES	Gynecologic	breast	breast_cancer	MutSig	coding	"oncogene, TSG, fusion"	TSG	TSG	0	1
+861	RUNX1	27135926	WGS	Gynecologic	breast	breast_cancer	Paper-specific	coding	"oncogene, TSG, fusion"	TSG	TSG	0	1
+861	RUNX1	27161491	Gene Panel	Gynecologic	breast	breast_cancer	Recurrence-based	coding	"oncogene, TSG, fusion"	TSG	TSG	0	1
+861	RUNX1	26437033	WES-Gene Panel	Gynecologic	breast	breast_fibroepithelial_tumours	Recurrence-based	coding	"oncogene, TSG, fusion"	TSG	TSG	0	1
+861	RUNX1	26939876	Gene Panel	Gynecologic	breast	triple_negative_breast_cancer	"Recurrence-based, Paper-specific"	coding	"oncogene, TSG, fusion"	TSG	TSG	0	1
+861	RUNX1	26099045	WGS	Gynecologic	breast	breast_cancer	"Recurrence-based, Literature-based"	coding	"oncogene, TSG, fusion"	TSG	TSG	0	1
+865	CBFB	22722202	WES	Gynecologic	breast	breast_cancer	MutSig	coding	"TSG, fusion"			0	1
+865	CBFB	23000897	WES	Gynecologic	breast	breast_cancer	MuSiC	coding	"TSG, fusion"			0	1
+865	CBFB	26451490	WES	Gynecologic	breast	breast_cancer	MutSig	coding	"TSG, fusion"			0	1
+865	CBFB	20668451	Gene Panel	Gynecologic	breast	breast_cancer	Wood-based	coding	"TSG, fusion"			0	1
+865	CBFB	28027327	WES	Gynecologic	breast	breast_cancer	MutSig	coding	"TSG, fusion"			0	1
+865	CBFB	27135926	WGS	Gynecologic	breast	breast_cancer	Paper-specific	coding	"TSG, fusion"			0	1
+865	CBFB	27161491	Gene Panel	Gynecologic	breast	breast_cancer	Recurrence-based	coding	"TSG, fusion"			0	1
+868	CBLB	27135926	WGS	Gynecologic	breast	breast_cancer	Paper-specific	coding	TSG			0	1
+999	CDH1	23000897	WES	Gynecologic	breast	breast_cancer	MuSiC	coding	TSG	TSG	TSG	0	1
+999	CDH1	26451490	WES	Gynecologic	breast	breast_cancer	MutSig	coding	TSG	TSG	TSG	0	1
+999	CDH1	28027327	WES	Gynecologic	breast	breast_cancer	MutSig	coding	TSG	TSG	TSG	0	1
+999	CDH1	27135926	WGS	Gynecologic	breast	breast_cancer	Paper-specific	coding	TSG	TSG	TSG	0	1
+999	CDH1	27161491	Gene Panel	Gynecologic	breast	breast_cancer	Recurrence-based	coding	TSG	TSG	TSG	0	1
+999	CDH1	22722201	WES	Gynecologic	breast	breast_cancer	Greenman-based	coding	TSG	TSG	TSG	0	1
+999	CDH1	26099045	WGS	Gynecologic	breast	breast_cancer	"Recurrence-based, Literature-based"	coding	TSG	TSG	TSG	0	1
+1027	CDKN1B	23000897	WES	Gynecologic	breast	breast_cancer	MuSiC	coding	TSG			0	1
+1027	CDKN1B	26451490	WES	Gynecologic	breast	breast_cancer	MutSig	coding	TSG			0	1
+1027	CDKN1B	27135926	WGS	Gynecologic	breast	breast_cancer	Paper-specific	coding	TSG			0	1
+1027	CDKN1B	27161491	Gene Panel	Gynecologic	breast	breast_cancer	Recurrence-based	coding	TSG			0	1
+1027	CDKN1B	22722201	WES	Gynecologic	breast	breast_cancer	Greenman-based	coding	TSG			0	1
+1027	CDKN1B	26099045	WGS	Gynecologic	breast	breast_cancer	"Recurrence-based, Literature-based"	coding	TSG			0	1
+1029	CDKN2A	28027327	WES	Gynecologic	breast	breast_cancer	MutSig	coding	TSG	TSG	TSG	0	1
+1029	CDKN2A	27135926	WGS	Gynecologic	breast	breast_cancer	Paper-specific	coding	TSG	TSG	TSG	0	1
+1029	CDKN2A	27161491	Gene Panel	Gynecologic	breast	breast_cancer	Recurrence-based	coding	TSG	TSG	TSG	0	1
+1029	CDKN2A	22722201	WES	Gynecologic	breast	breast_cancer	Greenman-based	coding	TSG	TSG	TSG	0	1
+1029	CDKN2A	26939876	Gene Panel	Gynecologic	breast	triple_negative_breast_cancer	"Recurrence-based, Paper-specific"	coding	TSG	TSG	TSG	0	1
+1029	CDKN2A	26099045	WGS	Gynecologic	breast	breast_cancer	"Recurrence-based, Literature-based"	coding	TSG	TSG	TSG	0	1
+1316	KLF6	26939876	Gene Panel	Gynecologic	breast	triple_negative_breast_cancer	"Recurrence-based, Paper-specific"	coding	TSG			0	1
+1387	CREBBP	27135926	WGS	Gynecologic	breast	breast_cancer	Paper-specific	coding	"oncogene, TSG, fusion"	TSG	TSG	0	1
+1387	CREBBP	26939876	Gene Panel	Gynecologic	breast	triple_negative_breast_cancer	"Recurrence-based, Paper-specific"	coding	"oncogene, TSG, fusion"	TSG	TSG	0	1
+1523	CUX1	27135926	WGS	Gynecologic	breast	breast_cancer	Paper-specific	coding	"oncogene, TSG"			0	0
+1616	DAXX	26939876	Gene Panel	Gynecologic	breast	triple_negative_breast_cancer	"Recurrence-based, Paper-specific"	coding	"oncogene, TSG"	TSG		0	1
+1788	DNMT3A	27135926	WGS	Gynecologic	breast	breast_cancer	Paper-specific	coding	TSG	Oncogene		0	0
+1788	DNMT3A	26939876	Gene Panel	Gynecologic	breast	triple_negative_breast_cancer	"Recurrence-based, Paper-specific"	coding	TSG	Oncogene		0	0
+2033	EP300	26939876	Gene Panel	Gynecologic	breast	triple_negative_breast_cancer	"Recurrence-based, Paper-specific"	coding	"TSG, fusion"	TSG	TSG	0	1
+2033	EP300	26099045	WGS	Gynecologic	breast	breast_cancer	"Recurrence-based, Literature-based"	coding	"TSG, fusion"	TSG	TSG	0	1
+2045	EPHA7	26939876	Gene Panel	Gynecologic	breast	triple_negative_breast_cancer	"Recurrence-based, Paper-specific"	coding				0	0
+2072	ERCC4	27135926	WGS	Gynecologic	breast	breast_cancer	Paper-specific	coding	TSG			0	1
+2120	ETV6	26939876	Gene Panel	Gynecologic	breast	triple_negative_breast_cancer	"Recurrence-based, Paper-specific"	coding	"TSG, fusion"			0	1
+2132	EXT2	20668451	Gene Panel	Gynecologic	breast	breast_cancer	Wood-based	coding	TSG			0	1
+2271	FH	26939876	Gene Panel	Gynecologic	breast	triple_negative_breast_cancer	"Recurrence-based, Paper-specific"	coding	TSG			0	1
+2309	FOXO3	27161491	Gene Panel	Gynecologic	breast	breast_cancer	Recurrence-based	coding	"oncogene, TSG, fusion"			0	0
+2316	FLNA	26437033	WES-Gene Panel	Gynecologic	breast	breast_fibroepithelial_tumours	Recurrence-based	coding				0	0
+2625	GATA3	22722202	WES	Gynecologic	breast	breast_cancer	MutSig	coding	"oncogene, TSG"	TSG		0	1
+2625	GATA3	23000897	WES	Gynecologic	breast	breast_cancer	MuSiC	coding	"oncogene, TSG"	TSG		0	1
+2625	GATA3	26451490	WES	Gynecologic	breast	breast_cancer	MutSig	coding	"oncogene, TSG"	TSG		0	1
+2625	GATA3	28027327	WES	Gynecologic	breast	breast_cancer	MutSig	coding	"oncogene, TSG"	TSG		0	1
+2625	GATA3	22608084	WGS	Gynecologic	breast	breast_cancer	Literature-based	coding	"oncogene, TSG"	TSG		0	1
+2625	GATA3	27135926	WGS	Gynecologic	breast	breast_cancer	Paper-specific	coding	"oncogene, TSG"	TSG		0	1
+2625	GATA3	27161491	Gene Panel	Gynecologic	breast	breast_cancer	Recurrence-based	coding	"oncogene, TSG"	TSG		0	1
+2625	GATA3	26960396	Gene Panel	Gynecologic	breast	male_breast_cancer	MutSig	coding	"oncogene, TSG"	TSG		0	1
+2625	GATA3	22722201	WES	Gynecologic	breast	breast_cancer	Greenman-based	coding	"oncogene, TSG"	TSG		0	1
+2625	GATA3	26939876	Gene Panel	Gynecologic	breast	triple_negative_breast_cancer	"Recurrence-based, Paper-specific"	coding	"oncogene, TSG"	TSG		0	1
+2625	GATA3	26099045	WGS	Gynecologic	breast	breast_cancer	"Recurrence-based, Literature-based"	coding	"oncogene, TSG"	TSG		0	1
+2903	GRIN2A	26939876	Gene Panel	Gynecologic	breast	triple_negative_breast_cancer	"Recurrence-based, Paper-specific"	coding	TSG			0	1
+4088	SMAD3	27135926	WGS	Gynecologic	breast	breast_cancer	Paper-specific	coding	TSG			0	1
+4089	SMAD4	22608084	WGS	Gynecologic	breast	breast_cancer	Literature-based	coding	TSG	TSG	TSG	0	1
+4089	SMAD4	27161491	Gene Panel	Gynecologic	breast	breast_cancer	Recurrence-based	coding	TSG	TSG	TSG	0	1
+4089	SMAD4	22722201	WES	Gynecologic	breast	breast_cancer	Greenman-based	coding	TSG	TSG	TSG	0	1
+4089	SMAD4	26099045	WGS	Gynecologic	breast	breast_cancer	"Recurrence-based, Literature-based"	coding	TSG	TSG	TSG	0	1
+4214	MAP3K1	22722202	WES	Gynecologic	breast	breast_cancer	MutSig	coding	"oncogene, TSG"	TSG	TSG	0	1
+4214	MAP3K1	23000897	WES	Gynecologic	breast	breast_cancer	MuSiC	coding	"oncogene, TSG"	TSG	TSG	0	1
+4214	MAP3K1	26451490	WES	Gynecologic	breast	breast_cancer	MutSig	coding	"oncogene, TSG"	TSG	TSG	0	1
+4214	MAP3K1	20668451	Gene Panel	Gynecologic	breast	breast_cancer	Wood-based	coding	"oncogene, TSG"	TSG	TSG	0	1
+4214	MAP3K1	28027327	WES	Gynecologic	breast	breast_cancer	MutSig	coding	"oncogene, TSG"	TSG	TSG	0	1
+4214	MAP3K1	27135926	WGS	Gynecologic	breast	breast_cancer	Paper-specific	coding	"oncogene, TSG"	TSG	TSG	0	1
+4214	MAP3K1	27161491	Gene Panel	Gynecologic	breast	breast_cancer	Recurrence-based	coding	"oncogene, TSG"	TSG	TSG	0	1
+4214	MAP3K1	26960396	Gene Panel	Gynecologic	breast	male_breast_cancer	MutSig	coding	"oncogene, TSG"	TSG	TSG	0	1
+4214	MAP3K1	22722201	WES	Gynecologic	breast	breast_cancer	Greenman-based	coding	"oncogene, TSG"	TSG	TSG	0	1
+4214	MAP3K1	26437033	WES-Gene Panel	Gynecologic	breast	breast_fibroepithelial_tumours	Recurrence-based	coding	"oncogene, TSG"	TSG	TSG	0	1
+4214	MAP3K1	26099045	WGS	Gynecologic	breast	breast_cancer	"Recurrence-based, Literature-based"	coding	"oncogene, TSG"	TSG	TSG	0	1
+4221	MEN1	27135926	WGS	Gynecologic	breast	breast_cancer	Paper-specific	coding	TSG	TSG		0	1
+4221	MEN1	27161491	Gene Panel	Gynecologic	breast	breast_cancer	Recurrence-based	coding	TSG	TSG		0	1
+4261	CIITA	29854292	WES	Gynecologic	breast	breast_cancer	SeqSig	coding	"TSG, fusion"			0	1
+4292	MLH1	27135926	WGS	Gynecologic	breast	breast_cancer	Paper-specific	coding	TSG	TSG		0	1
+4436	MSH2	27135926	WGS	Gynecologic	breast	breast_cancer	Paper-specific	coding	TSG	TSG		0	1
+4436	MSH2	26939876	Gene Panel	Gynecologic	breast	triple_negative_breast_cancer	"Recurrence-based, Paper-specific"	coding	TSG	TSG		0	1
+4763	NF1	23000897	WES	Gynecologic	breast	breast_cancer	MuSiC	coding	"TSG, fusion"	TSG	TSG	0	1
+4763	NF1	27135926	WGS	Gynecologic	breast	breast_cancer	Paper-specific	coding	"TSG, fusion"	TSG	TSG	0	1
+4763	NF1	27161491	Gene Panel	Gynecologic	breast	breast_cancer	Recurrence-based	coding	"TSG, fusion"	TSG	TSG	0	1
+4763	NF1	22722201	WES	Gynecologic	breast	breast_cancer	Greenman-based	coding	"TSG, fusion"	TSG	TSG	0	1
+4763	NF1	26437033	WES-Gene Panel	Gynecologic	breast	breast_fibroepithelial_tumours	Recurrence-based	coding	"TSG, fusion"	TSG	TSG	0	1
+4763	NF1	26939876	Gene Panel	Gynecologic	breast	triple_negative_breast_cancer	"Recurrence-based, Paper-specific"	coding	"TSG, fusion"	TSG	TSG	0	1
+4763	NF1	26099045	WGS	Gynecologic	breast	breast_cancer	"Recurrence-based, Literature-based"	coding	"TSG, fusion"	TSG	TSG	0	1
+4771	NF2	27135926	WGS	Gynecologic	breast	breast_cancer	Paper-specific	coding	TSG	TSG	TSG	0	1
+4849	CNOT3	27135926	WGS	Gynecologic	breast	breast_cancer	Paper-specific	coding	TSG			0	1
+4851	NOTCH1	27135926	WGS	Gynecologic	breast	breast_cancer	Paper-specific	coding	"oncogene, TSG, fusion"	TSG	TSG	0	1
+4851	NOTCH1	26939876	Gene Panel	Gynecologic	breast	triple_negative_breast_cancer	"Recurrence-based, Paper-specific"	coding	"oncogene, TSG, fusion"	TSG	TSG	0	1
+4853	NOTCH2	27135926	WGS	Gynecologic	breast	breast_cancer	Paper-specific	coding	"oncogene, TSG"	TSG		0	1
+4853	NOTCH2	26939876	Gene Panel	Gynecologic	breast	triple_negative_breast_cancer	"Recurrence-based, Paper-specific"	coding	"oncogene, TSG"	TSG		0	1
+5295	PIK3R1	23000897	WES	Gynecologic	breast	breast_cancer	MuSiC	coding	TSG	TSG	TSG	0	1
+5295	PIK3R1	26451490	WES	Gynecologic	breast	breast_cancer	MutSig	coding	TSG	TSG	TSG	0	1
+5295	PIK3R1	20668451	Gene Panel	Gynecologic	breast	breast_cancer	Wood-based	coding	TSG	TSG	TSG	0	1
+5295	PIK3R1	27135926	WGS	Gynecologic	breast	breast_cancer	Paper-specific	coding	TSG	TSG	TSG	0	1
+5295	PIK3R1	27161491	Gene Panel	Gynecologic	breast	breast_cancer	Recurrence-based	coding	TSG	TSG	TSG	0	1
+5295	PIK3R1	26939876	Gene Panel	Gynecologic	breast	triple_negative_breast_cancer	"Recurrence-based, Paper-specific"	coding	TSG	TSG	TSG	0	1
+5295	PIK3R1	26099045	WGS	Gynecologic	breast	breast_cancer	"Recurrence-based, Literature-based"	coding	TSG	TSG	TSG	0	1
+5395	PMS2	27135926	WGS	Gynecologic	breast	breast_cancer	Paper-specific	coding	TSG			0	1
+5424	POLD1	29854292	WES	Gynecologic	breast	breast_cancer	SeqSig	coding	TSG			0	1
+5573	PRKAR1A	29854292	WES	Gynecologic	breast	breast_cancer	SeqSig	coding	"oncogene, TSG, fusion"			0	0
+5728	PTEN	23000897	WES	Gynecologic	breast	breast_cancer	MuSiC	coding	TSG	TSG	TSG	0	1
+5728	PTEN	26451490	WES	Gynecologic	breast	breast_cancer	MutSig	coding	TSG	TSG	TSG	0	1
+5728	PTEN	28027327	WES	Gynecologic	breast	breast_cancer	MutSig	coding	TSG	TSG	TSG	0	1
+5728	PTEN	27135926	WGS	Gynecologic	breast	breast_cancer	Paper-specific	coding	TSG	TSG	TSG	0	1
+5728	PTEN	27161491	Gene Panel	Gynecologic	breast	breast_cancer	Recurrence-based	coding	TSG	TSG	TSG	0	1
+5728	PTEN	22722201	WES	Gynecologic	breast	breast_cancer	Greenman-based	coding	TSG	TSG	TSG	0	1
+5728	PTEN	26939876	Gene Panel	Gynecologic	breast	triple_negative_breast_cancer	"Recurrence-based, Paper-specific"	coding	TSG	TSG	TSG	0	1
+5728	PTEN	26099045	WGS	Gynecologic	breast	breast_cancer	"Recurrence-based, Literature-based"	coding	TSG	TSG	TSG	0	1
+5789	PTPRD	23000897	WES	Gynecologic	breast	breast_cancer	MuSiC	coding	TSG			0	1
+5789	PTPRD	26939876	Gene Panel	Gynecologic	breast	triple_negative_breast_cancer	"Recurrence-based, Paper-specific"	coding	TSG			0	1
+5925	RB1	23000897	WES	Gynecologic	breast	breast_cancer	MuSiC	coding	TSG	TSG	TSG	0	1
+5925	RB1	26451490	WES	Gynecologic	breast	breast_cancer	MutSig	coding	TSG	TSG	TSG	0	1
+5925	RB1	28027327	WES	Gynecologic	breast	breast_cancer	MutSig	coding	TSG	TSG	TSG	0	1
+5925	RB1	27135926	WGS	Gynecologic	breast	breast_cancer	Paper-specific	coding	TSG	TSG	TSG	0	1
+5925	RB1	27161491	Gene Panel	Gynecologic	breast	breast_cancer	Recurrence-based	coding	TSG	TSG	TSG	0	1
+5925	RB1	22722201	WES	Gynecologic	breast	breast_cancer	Greenman-based	coding	TSG	TSG	TSG	0	1
+5925	RB1	26437033	WES-Gene Panel	Gynecologic	breast	breast_fibroepithelial_tumours	Recurrence-based	coding	TSG	TSG	TSG	0	1
+5925	RB1	26939876	Gene Panel	Gynecologic	breast	triple_negative_breast_cancer	"Recurrence-based, Paper-specific"	coding	TSG	TSG	TSG	0	1
+5925	RB1	26099045	WGS	Gynecologic	breast	breast_cancer	"Recurrence-based, Literature-based"	coding	TSG	TSG	TSG	0	1
+6416	MAP2K4	23000897	WES	Gynecologic	breast	breast_cancer	MuSiC	coding	"oncogene, TSG"			0	0
+6416	MAP2K4	26451490	WES	Gynecologic	breast	breast_cancer	MutSig	coding	"oncogene, TSG"			0	0
+6416	MAP2K4	28027327	WES	Gynecologic	breast	breast_cancer	MutSig	coding	"oncogene, TSG"			0	0
+6416	MAP2K4	22608084	WGS	Gynecologic	breast	breast_cancer	Literature-based	coding	"oncogene, TSG"			0	0
+6416	MAP2K4	27135926	WGS	Gynecologic	breast	breast_cancer	Paper-specific	coding	"oncogene, TSG"			0	0
+6416	MAP2K4	27161491	Gene Panel	Gynecologic	breast	breast_cancer	Recurrence-based	coding	"oncogene, TSG"			0	0
+6416	MAP2K4	22722201	WES	Gynecologic	breast	breast_cancer	Greenman-based	coding	"oncogene, TSG"			0	0
+6416	MAP2K4	26099045	WGS	Gynecologic	breast	breast_cancer	"Recurrence-based, Literature-based"	coding	"oncogene, TSG"			0	0
+6597	SMARCA4	27135926	WGS	Gynecologic	breast	breast_cancer	Paper-specific	coding	TSG	TSG		0	1
+6602	SMARCD1	22722201	WES	Gynecologic	breast	breast_cancer	Greenman-based	coding	TSG			0	1
+6794	STK11	27135926	WGS	Gynecologic	breast	breast_cancer	Paper-specific	coding	TSG	TSG	TSG	0	1
+6794	STK11	22722201	WES	Gynecologic	breast	breast_cancer	Greenman-based	coding	TSG	TSG	TSG	0	1
+6794	STK11	26099045	WGS	Gynecologic	breast	breast_cancer	"Recurrence-based, Literature-based"	coding	TSG	TSG	TSG	0	1
+6926	TBX3	23000897	WES	Gynecologic	breast	breast_cancer	MuSiC	coding	"oncogene, TSG"			0	0
+6926	TBX3	26451490	WES	Gynecologic	breast	breast_cancer	MutSig	coding	"oncogene, TSG"			0	0
+6926	TBX3	27135926	WGS	Gynecologic	breast	breast_cancer	Paper-specific	coding	"oncogene, TSG"			0	0
+6926	TBX3	27161491	Gene Panel	Gynecologic	breast	breast_cancer	Recurrence-based	coding	"oncogene, TSG"			0	0
+6926	TBX3	22722201	WES	Gynecologic	breast	breast_cancer	Greenman-based	coding	"oncogene, TSG"			0	0
+6926	TBX3	26099045	WGS	Gynecologic	breast	breast_cancer	"Recurrence-based, Literature-based"	coding	"oncogene, TSG"			0	0
+7048	TGFBR2	26939876	Gene Panel	Gynecologic	breast	triple_negative_breast_cancer	"Recurrence-based, Paper-specific"	coding	TSG			0	1
+7128	TNFAIP3	26939876	Gene Panel	Gynecologic	breast	triple_negative_breast_cancer	"Recurrence-based, Paper-specific"	coding	TSG	TSG		0	1
+7157	TP53	22722202	WES	Gynecologic	breast	breast_cancer	MutSig	coding	"oncogene, TSG, fusion"	TSG	TSG	0	1
+7157	TP53	23000897	WES	Gynecologic	breast	breast_cancer	MuSiC	coding	"oncogene, TSG, fusion"	TSG	TSG	0	1
+7157	TP53	26451490	WES	Gynecologic	breast	breast_cancer	MutSig	coding	"oncogene, TSG, fusion"	TSG	TSG	0	1
+7157	TP53	29854292	WES	Gynecologic	breast	breast_cancer	SeqSig	coding	"oncogene, TSG, fusion"	TSG	TSG	0	1
+7157	TP53	20668451	Gene Panel	Gynecologic	breast	breast_cancer	Wood-based	coding	"oncogene, TSG, fusion"	TSG	TSG	0	1
+7157	TP53	28027327	WES	Gynecologic	breast	breast_cancer	MutSig	coding	"oncogene, TSG, fusion"	TSG	TSG	0	1
+7157	TP53	22608084	WGS	Gynecologic	breast	breast_cancer	Literature-based	coding	"oncogene, TSG, fusion"	TSG	TSG	0	1
+7157	TP53	27135926	WGS	Gynecologic	breast	breast_cancer	Paper-specific	coding	"oncogene, TSG, fusion"	TSG	TSG	0	1
+7157	TP53	27161491	Gene Panel	Gynecologic	breast	breast_cancer	Recurrence-based	coding	"oncogene, TSG, fusion"	TSG	TSG	0	1
+7157	TP53	26960396	Gene Panel	Gynecologic	breast	male_breast_cancer	MutSig	coding	"oncogene, TSG, fusion"	TSG	TSG	0	1
+7157	TP53	22722201	WES	Gynecologic	breast	breast_cancer	Greenman-based	coding	"oncogene, TSG, fusion"	TSG	TSG	0	1
+7157	TP53	26437033	WES-Gene Panel	Gynecologic	breast	breast_fibroepithelial_tumours	Recurrence-based	coding	"oncogene, TSG, fusion"	TSG	TSG	0	1
+7157	TP53	26939876	Gene Panel	Gynecologic	breast	triple_negative_breast_cancer	"Recurrence-based, Paper-specific"	coding	"oncogene, TSG, fusion"	TSG	TSG	0	1
+7157	TP53	26099045	WGS	Gynecologic	breast	breast_cancer	"Recurrence-based, Literature-based"	coding	"oncogene, TSG, fusion"	TSG	TSG	0	1
+7248	TSC1	26939876	Gene Panel	Gynecologic	breast	triple_negative_breast_cancer	"Recurrence-based, Paper-specific"	coding	TSG	TSG	TSG	0	1
+7403	KDM6A	27135926	WGS	Gynecologic	breast	breast_cancer	Paper-specific	coding	"oncogene, TSG"	TSG	TSG	0	1
+7403	KDM6A	27161491	Gene Panel	Gynecologic	breast	breast_cancer	Recurrence-based	coding	"oncogene, TSG"	TSG	TSG	0	1
+7403	KDM6A	26939876	Gene Panel	Gynecologic	breast	triple_negative_breast_cancer	"Recurrence-based, Paper-specific"	coding	"oncogene, TSG"	TSG	TSG	0	1
+7490	WT1	26939876	Gene Panel	Gynecologic	breast	triple_negative_breast_cancer	"Recurrence-based, Paper-specific"	coding	"oncogene, TSG, fusion"	TSG		0	1
+8085	KMT2D	22608084	WGS	Gynecologic	breast	breast_cancer	Literature-based	coding	"oncogene, TSG"	TSG		0	1
+8085	KMT2D	27135926	WGS	Gynecologic	breast	breast_cancer	Paper-specific	coding	"oncogene, TSG"	TSG		0	1
+8085	KMT2D	22722201	WES	Gynecologic	breast	breast_cancer	Greenman-based	coding	"oncogene, TSG"	TSG		0	1
+8085	KMT2D	26437033	WES-Gene Panel	Gynecologic	breast	breast_fibroepithelial_tumours	Recurrence-based	coding	"oncogene, TSG"	TSG		0	1
+8085	KMT2D	26939876	Gene Panel	Gynecologic	breast	triple_negative_breast_cancer	"Recurrence-based, Paper-specific"	coding	"oncogene, TSG"	TSG		0	1
+8085	KMT2D	26099045	WGS	Gynecologic	breast	breast_cancer	"Recurrence-based, Literature-based"	coding	"oncogene, TSG"	TSG		0	1
+8289	ARID1A	26451490	WES	Gynecologic	breast	breast_cancer	MutSig	coding	"TSG, fusion"	TSG	TSG	0	1
+8289	ARID1A	27135926	WGS	Gynecologic	breast	breast_cancer	Paper-specific	coding	"TSG, fusion"	TSG	TSG	0	1
+8289	ARID1A	27161491	Gene Panel	Gynecologic	breast	breast_cancer	Recurrence-based	coding	"TSG, fusion"	TSG	TSG	0	1
+8289	ARID1A	22722201	WES	Gynecologic	breast	breast_cancer	Greenman-based	coding	"TSG, fusion"	TSG	TSG	0	1
+8289	ARID1A	26939876	Gene Panel	Gynecologic	breast	triple_negative_breast_cancer	"Recurrence-based, Paper-specific"	coding	"TSG, fusion"	TSG	TSG	0	1
+8289	ARID1A	26099045	WGS	Gynecologic	breast	breast_cancer	"Recurrence-based, Literature-based"	coding	"TSG, fusion"	TSG	TSG	0	1
+8312	AXIN1	27135926	WGS	Gynecologic	breast	breast_cancer	Paper-specific	coding	TSG	TSG	TSG	0	1
+8314	BAP1	27161491	Gene Panel	Gynecologic	breast	breast_cancer	Recurrence-based	coding	TSG	TSG	TSG	0	1
+8314	BAP1	22722201	WES	Gynecologic	breast	breast_cancer	Greenman-based	coding	TSG	TSG	TSG	0	1
+8314	BAP1	26099045	WGS	Gynecologic	breast	breast_cancer	"Recurrence-based, Literature-based"	coding	TSG	TSG	TSG	0	1
+8471	IRS4	26451490	WES	Gynecologic	breast	breast_cancer	MutSig	coding	"oncogene, TSG"			0	0
+8626	TP63	26939876	Gene Panel	Gynecologic	breast	triple_negative_breast_cancer	"Recurrence-based, Paper-specific"	coding	"oncogene, TSG"			0	0
+9175	MAP3K13	22722201	WES	Gynecologic	breast	breast_cancer	Greenman-based	coding	"oncogene, TSG"			0	0
+9175	MAP3K13	26099045	WGS	Gynecologic	breast	breast_cancer	"Recurrence-based, Literature-based"	coding	"oncogene, TSG"			0	0
+9203	ZMYM3	26451490	WES	Gynecologic	breast	breast_cancer	MutSig	coding	TSG			0	1
+9611	NCOR1	23000897	WES	Gynecologic	breast	breast_cancer	MuSiC	coding	TSG	TSG	TSG	0	1
+9611	NCOR1	26451490	WES	Gynecologic	breast	breast_cancer	MutSig	coding	TSG	TSG	TSG	0	1
+9611	NCOR1	22608084	WGS	Gynecologic	breast	breast_cancer	Literature-based	coding	TSG	TSG	TSG	0	1
+9611	NCOR1	27135926	WGS	Gynecologic	breast	breast_cancer	Paper-specific	coding	TSG	TSG	TSG	0	1
+9611	NCOR1	27161491	Gene Panel	Gynecologic	breast	breast_cancer	Recurrence-based	coding	TSG	TSG	TSG	0	1
+9611	NCOR1	22722201	WES	Gynecologic	breast	breast_cancer	Greenman-based	coding	TSG	TSG	TSG	0	1
+9968	MED12	25038752	WES	Gynecologic	breast	breast_fibroadenoma	Recurrence-based	coding	TSG	Oncogene		0	0
+9968	MED12	26437033	WES-Gene Panel	Gynecologic	breast	breast_fibroepithelial_tumours	Recurrence-based	coding	TSG	Oncogene		0	0
+10664	CTCF	23000897	WES	Gynecologic	breast	breast_cancer	MuSiC	coding	TSG			0	1
+10664	CTCF	26451490	WES	Gynecologic	breast	breast_cancer	MutSig	coding	TSG			0	1
+10664	CTCF	27135926	WGS	Gynecologic	breast	breast_cancer	Paper-specific	coding	TSG			0	1
+10664	CTCF	27161491	Gene Panel	Gynecologic	breast	breast_cancer	Recurrence-based	coding	TSG			0	1
+10664	CTCF	26099045	WGS	Gynecologic	breast	breast_cancer	"Recurrence-based, Literature-based"	coding	TSG			0	1
+10735	STAG2	27135926	WGS	Gynecologic	breast	breast_cancer	Paper-specific	coding	TSG	TSG	TSG	0	1
+11200	CHEK2	27161491	Gene Panel	Gynecologic	breast	breast_cancer	Recurrence-based	coding	TSG			0	1
+11200	CHEK2	26099045	WGS	Gynecologic	breast	breast_cancer	"Recurrence-based, Literature-based"	coding	TSG			0	1
+23013	SPEN	27135926	WGS	Gynecologic	breast	breast_cancer	Paper-specific	coding	TSG			0	1
+23152	CIC	27135926	WGS	Gynecologic	breast	breast_cancer	Paper-specific	coding	"oncogene, TSG, fusion"	TSG		0	1
+23405	DICER1	26939876	Gene Panel	Gynecologic	breast	triple_negative_breast_cancer	"Recurrence-based, Paper-specific"	coding	TSG			0	1
+23484	LEPROTL1	28658208	WES	Gynecologic	breast	breast_cancer	MutSigNC	noncoding	TSG			0	1
+29072	SETD2	27135926	WGS	Gynecologic	breast	breast_cancer	Paper-specific	coding	TSG	TSG	TSG	0	1
+29072	SETD2	22722201	WES	Gynecologic	breast	breast_cancer	Greenman-based	coding	TSG	TSG	TSG	0	1
+29072	SETD2	26437033	WES-Gene Panel	Gynecologic	breast	breast_fibroepithelial_tumours	Recurrence-based	coding	TSG	TSG	TSG	0	1
+29072	SETD2	26099045	WGS	Gynecologic	breast	breast_cancer	"Recurrence-based, Literature-based"	coding	TSG	TSG	TSG	0	1
+54790	TET2	27135926	WGS	Gynecologic	breast	breast_cancer	Paper-specific	coding	TSG	TSG		0	1
+54880	BCOR	27135926	WGS	Gynecologic	breast	breast_cancer	Paper-specific	coding	"TSG, fusion"	TSG	TSG	0	1
+54880	BCOR	26437033	WES-Gene Panel	Gynecologic	breast	breast_fibroepithelial_tumours	Recurrence-based	coding	"TSG, fusion"	TSG	TSG	0	1
+55193	PBRM1	27135926	WGS	Gynecologic	breast	breast_cancer	Paper-specific	coding	TSG	TSG	TSG	0	1
+55193	PBRM1	27161491	Gene Panel	Gynecologic	breast	breast_cancer	Recurrence-based	coding	TSG	TSG	TSG	0	1
+55193	PBRM1	26939876	Gene Panel	Gynecologic	breast	triple_negative_breast_cancer	"Recurrence-based, Paper-specific"	coding	TSG	TSG	TSG	0	1
+55193	PBRM1	26099045	WGS	Gynecologic	breast	breast_cancer	"Recurrence-based, Literature-based"	coding	TSG	TSG	TSG	0	1
+55294	FBXW7	26451490	WES	Gynecologic	breast	breast_cancer	MutSig	coding	TSG	TSG	TSG	0	1
+55294	FBXW7	27135926	WGS	Gynecologic	breast	breast_cancer	Paper-specific	coding	TSG	TSG	TSG	0	1
+55294	FBXW7	26939876	Gene Panel	Gynecologic	breast	triple_negative_breast_cancer	"Recurrence-based, Paper-specific"	coding	TSG	TSG	TSG	0	1
+57492	ARID1B	27135926	WGS	Gynecologic	breast	breast_cancer	Paper-specific	coding	TSG	TSG		0	1
+57492	ARID1B	22722201	WES	Gynecologic	breast	breast_cancer	Greenman-based	coding	TSG	TSG		0	1
+57492	ARID1B	26099045	WGS	Gynecologic	breast	breast_cancer	"Recurrence-based, Literature-based"	coding	TSG	TSG		0	1
+58508	KMT2C	23000897	WES	Gynecologic	breast	breast_cancer	MuSiC	coding	TSG	TSG		0	1
+58508	KMT2C	26451490	WES	Gynecologic	breast	breast_cancer	MutSig	coding	TSG	TSG		0	1
+58508	KMT2C	22608084	WGS	Gynecologic	breast	breast_cancer	Literature-based	coding	TSG	TSG		0	1
+58508	KMT2C	27135926	WGS	Gynecologic	breast	breast_cancer	Paper-specific	coding	TSG	TSG		0	1
+58508	KMT2C	27161491	Gene Panel	Gynecologic	breast	breast_cancer	Recurrence-based	coding	TSG	TSG		0	1
+58508	KMT2C	22722201	WES	Gynecologic	breast	breast_cancer	Greenman-based	coding	TSG	TSG		0	1
+58508	KMT2C	26939876	Gene Panel	Gynecologic	breast	triple_negative_breast_cancer	"Recurrence-based, Paper-specific"	coding	TSG	TSG		0	1
+58508	KMT2C	26099045	WGS	Gynecologic	breast	breast_cancer	"Recurrence-based, Literature-based"	coding	TSG	TSG		0	1
+79718	TBL1XR1	23000897	WES	Gynecologic	breast	breast_cancer	MuSiC	coding	"oncogene, TSG, fusion"			0	0
+79718	TBL1XR1	26451490	WES	Gynecologic	breast	breast_cancer	MutSig	coding	"oncogene, TSG, fusion"			0	0
+79718	TBL1XR1	27161491	Gene Panel	Gynecologic	breast	breast_cancer	Recurrence-based	coding	"oncogene, TSG, fusion"			0	0
+79728	PALB2	27135926	WGS	Gynecologic	breast	breast_cancer	Paper-specific	coding	TSG			0	1
+79728	PALB2	26099045	WGS	Gynecologic	breast	breast_cancer	"Recurrence-based, Literature-based"	coding	TSG			0	1
+83990	BRIP1	26099045	WGS	Gynecologic	breast	breast_cancer	"Recurrence-based, Literature-based"	coding	TSG			0	1
+84295	PHF6	27135926	WGS	Gynecologic	breast	breast_cancer	Paper-specific	coding	TSG	TSG		0	1
+171023	ASXL1	27135926	WGS	Gynecologic	breast	breast_cancer	Paper-specific	coding	TSG	TSG		0	1
+171023	ASXL1	22722201	WES	Gynecologic	breast	breast_cancer	Greenman-based	coding	TSG	TSG		0	1
+196528	ARID2	22722201	WES	Gynecologic	breast	breast_cancer	Greenman-based	coding	TSG	TSG	TSG	0	1
+196528	ARID2	26099045	WGS	Gynecologic	breast	breast_cancer	"Recurrence-based, Literature-based"	coding	TSG	TSG	TSG	0	1
+345930	ECT2L	27135926	WGS	Gynecologic	breast	breast_cancer	Paper-specific	coding				0	0
+207	AKT1	22722202	WES	Gynecologic	breast	breast_cancer	MutSig	coding	oncogene	Oncogene	Oncogene	1	0
+207	AKT1	23000897	WES	Gynecologic	breast	breast_cancer	MuSiC	coding	oncogene	Oncogene	Oncogene	1	0
+207	AKT1	26451490	WES	Gynecologic	breast	breast_cancer	MutSig	coding	oncogene	Oncogene	Oncogene	1	0
+207	AKT1	20668451	Gene Panel	Gynecologic	breast	breast_cancer	Wood-based	coding	oncogene	Oncogene	Oncogene	1	0
+207	AKT1	28027327	WES	Gynecologic	breast	breast_cancer	MutSig	coding	oncogene	Oncogene	Oncogene	1	0
+207	AKT1	27135926	WGS	Gynecologic	breast	breast_cancer	Paper-specific	coding	oncogene	Oncogene	Oncogene	1	0
+207	AKT1	27161491	Gene Panel	Gynecologic	breast	breast_cancer	Recurrence-based	coding	oncogene	Oncogene	Oncogene	1	0
+207	AKT1	22722201	WES	Gynecologic	breast	breast_cancer	Greenman-based	coding	oncogene	Oncogene	Oncogene	1	0
+207	AKT1	26939876	Gene Panel	Gynecologic	breast	triple_negative_breast_cancer	"Recurrence-based, Paper-specific"	coding	oncogene	Oncogene	Oncogene	1	0
+207	AKT1	26099045	WGS	Gynecologic	breast	breast_cancer	"Recurrence-based, Literature-based"	coding	oncogene	Oncogene	Oncogene	1	0
+208	AKT2	27135926	WGS	Gynecologic	breast	breast_cancer	Paper-specific	coding	oncogene		Oncogene	1	0
+208	AKT2	22722201	WES	Gynecologic	breast	breast_cancer	Greenman-based	coding	oncogene		Oncogene	1	0
+208	AKT2	26099045	WGS	Gynecologic	breast	breast_cancer	"Recurrence-based, Literature-based"	coding	oncogene		Oncogene	1	0
+238	ALK	26939876	Gene Panel	Gynecologic	breast	triple_negative_breast_cancer	"Recurrence-based, Paper-specific"	coding	"oncogene, fusion"	Oncogene	Oncogene	1	0
+387	RHOA	27135926	WGS	Gynecologic	breast	breast_cancer	Paper-specific	coding	"oncogene, TSG"		Oncogene	1	0
+595	CCND1	27135926	WGS	Gynecologic	breast	breast_cancer	Paper-specific	coding	"oncogene, fusion"		Oncogene	1	0
+595	CCND1	26099045	WGS	Gynecologic	breast	breast_cancer	"Recurrence-based, Literature-based"	coding	"oncogene, fusion"		Oncogene	1	0
+673	BRAF	27135926	WGS	Gynecologic	breast	breast_cancer	Paper-specific	coding	"oncogene, fusion"	Oncogene	Oncogene	1	0
+867	CBL	26939876	Gene Panel	Gynecologic	breast	triple_negative_breast_cancer	"Recurrence-based, Paper-specific"	coding	"oncogene, TSG, fusion"	Oncogene		1	0
+896	CCND3	23000897	WES	Gynecologic	breast	breast_cancer	MuSiC	coding	"oncogene, fusion"			1	0
+896	CCND3	27135926	WGS	Gynecologic	breast	breast_cancer	Paper-specific	coding	"oncogene, fusion"			1	0
+898	CCNE1	27135926	WGS	Gynecologic	breast	breast_cancer	Paper-specific	coding	oncogene			1	0
+898	CCNE1	26939876	Gene Panel	Gynecologic	breast	triple_negative_breast_cancer	"Recurrence-based, Paper-specific"	coding	oncogene			1	0
+1021	CDK6	27135926	WGS	Gynecologic	breast	breast_cancer	Paper-specific	coding	"oncogene, fusion"		Oncogene	1	0
+1499	CTNNB1	28658208	WES	Gynecologic	breast	breast_cancer	MutSigNC	noncoding	"oncogene, fusion"	Oncogene	Oncogene	1	0
+1499	CTNNB1	26939876	Gene Panel	Gynecologic	breast	triple_negative_breast_cancer	"Recurrence-based, Paper-specific"	coding	"oncogene, fusion"	Oncogene	Oncogene	1	0
+1956	EGFR	27135926	WGS	Gynecologic	breast	breast_cancer	Paper-specific	coding	oncogene	Oncogene	Oncogene	1	0
+1956	EGFR	26437033	WES-Gene Panel	Gynecologic	breast	breast_fibroepithelial_tumours	Recurrence-based	coding	oncogene	Oncogene	Oncogene	1	0
+2064	ERBB2	26451490	WES	Gynecologic	breast	breast_cancer	MutSig	coding	"oncogene, fusion"	Oncogene	Oncogene	1	0
+2064	ERBB2	27135926	WGS	Gynecologic	breast	breast_cancer	Paper-specific	coding	"oncogene, fusion"	Oncogene	Oncogene	1	0
+2064	ERBB2	27161491	Gene Panel	Gynecologic	breast	breast_cancer	Recurrence-based	coding	"oncogene, fusion"	Oncogene	Oncogene	1	0
+2064	ERBB2	22722201	WES	Gynecologic	breast	breast_cancer	Greenman-based	coding	"oncogene, fusion"	Oncogene	Oncogene	1	0
+2064	ERBB2	26099045	WGS	Gynecologic	breast	breast_cancer	"Recurrence-based, Literature-based"	coding	"oncogene, fusion"	Oncogene	Oncogene	1	0
+2065	ERBB3	20668451	Gene Panel	Gynecologic	breast	breast_cancer	Wood-based	coding	oncogene		Oncogene	1	0
+2065	ERBB3	27135926	WGS	Gynecologic	breast	breast_cancer	Paper-specific	coding	oncogene		Oncogene	1	0
+2065	ERBB3	26939876	Gene Panel	Gynecologic	breast	triple_negative_breast_cancer	"Recurrence-based, Paper-specific"	coding	oncogene		Oncogene	1	0
+2066	ERBB4	26437033	WES-Gene Panel	Gynecologic	breast	breast_fibroepithelial_tumours	Recurrence-based	coding	"oncogene, TSG"		Oncogene	1	0
+2066	ERBB4	26939876	Gene Panel	Gynecologic	breast	triple_negative_breast_cancer	"Recurrence-based, Paper-specific"	coding	"oncogene, TSG"		Oncogene	1	0
+2078	ERG	26939876	Gene Panel	Gynecologic	breast	triple_negative_breast_cancer	"Recurrence-based, Paper-specific"	coding	"oncogene, fusion"			1	0
+2099	ESR1	28027327	WES	Gynecologic	breast	breast_cancer	MutSig	coding	"oncogene, TSG, fusion"		Oncogene	1	0
+2099	ESR1	27135926	WGS	Gynecologic	breast	breast_cancer	Paper-specific	coding	"oncogene, TSG, fusion"		Oncogene	1	0
+2099	ESR1	24185510	WES	Gynecologic	breast	breast_cancer	Recurrence-based	coding	"oncogene, TSG, fusion"		Oncogene	1	0
+2099	ESR1	24185512	WES	Gynecologic	breast	breast_cancer	Recurrence-based	coding	"oncogene, TSG, fusion"		Oncogene	1	0
+2260	FGFR1	26939876	Gene Panel	Gynecologic	breast	triple_negative_breast_cancer	"Recurrence-based, Paper-specific"	coding	"oncogene, fusion"		Oncogene	1	0
+2263	FGFR2	27135926	WGS	Gynecologic	breast	breast_cancer	Paper-specific	coding	"oncogene, fusion"	Oncogene	Oncogene	1	0
+2624	GATA2	26939876	Gene Panel	Gynecologic	breast	triple_negative_breast_cancer	"Recurrence-based, Paper-specific"	coding	oncogene	Oncogene		1	0
+2778	GNAS	27135926	WGS	Gynecologic	breast	breast_cancer	Paper-specific	coding	oncogene	Oncogene	Oncogene	1	0
+3169	FOXA1	26451490	WES	Gynecologic	breast	breast_cancer	MutSig	coding	oncogene		Oncogene	1	0
+3169	FOXA1	27135926	WGS	Gynecologic	breast	breast_cancer	Paper-specific	coding	oncogene		Oncogene	1	0
+3169	FOXA1	28658208	WES	Gynecologic	breast	breast_cancer	MutSigNC	noncoding	oncogene		Oncogene	1	0
+3169	FOXA1	26099045	WGS	Gynecologic	breast	breast_cancer	"Recurrence-based, Literature-based"	coding	oncogene		Oncogene	1	0
+3265	HRAS	27135926	WGS	Gynecologic	breast	breast_cancer	Paper-specific	coding	oncogene	Oncogene	Oncogene	1	0
+3815	KIT	26939876	Gene Panel	Gynecologic	breast	triple_negative_breast_cancer	"Recurrence-based, Paper-specific"	coding	oncogene	Oncogene	Oncogene	1	0
+3845	KRAS	26451490	WES	Gynecologic	breast	breast_cancer	MutSig	coding	oncogene	Oncogene	Oncogene	1	0
+3845	KRAS	27135926	WGS	Gynecologic	breast	breast_cancer	Paper-specific	coding	oncogene	Oncogene	Oncogene	1	0
+3845	KRAS	27161491	Gene Panel	Gynecologic	breast	breast_cancer	Recurrence-based	coding	oncogene	Oncogene	Oncogene	1	0
+3845	KRAS	22722201	WES	Gynecologic	breast	breast_cancer	Greenman-based	coding	oncogene	Oncogene	Oncogene	1	0
+3845	KRAS	26939876	Gene Panel	Gynecologic	breast	triple_negative_breast_cancer	"Recurrence-based, Paper-specific"	coding	oncogene	Oncogene	Oncogene	1	0
+3845	KRAS	26099045	WGS	Gynecologic	breast	breast_cancer	"Recurrence-based, Literature-based"	coding	oncogene	Oncogene	Oncogene	1	0
+4193	MDM2	27135926	WGS	Gynecologic	breast	breast_cancer	Paper-specific	coding	oncogene			1	0
+4233	MET	26939876	Gene Panel	Gynecologic	breast	triple_negative_breast_cancer	"Recurrence-based, Paper-specific"	coding	oncogene	Oncogene	Oncogene	1	0
+4286	MITF	26939876	Gene Panel	Gynecologic	breast	triple_negative_breast_cancer	"Recurrence-based, Paper-specific"	coding	oncogene			1	0
+4297	KMT2A	26939876	Gene Panel	Gynecologic	breast	triple_negative_breast_cancer	"Recurrence-based, Paper-specific"	coding	"oncogene, fusion"			1	0
+4297	KMT2A	26099045	WGS	Gynecologic	breast	breast_cancer	"Recurrence-based, Literature-based"	coding	"oncogene, fusion"			1	0
+4301	AFDN	27135926	WGS	Gynecologic	breast	breast_cancer	Paper-specific	coding	"oncogene, fusion"			1	0
+4301	AFDN	27161491	Gene Panel	Gynecologic	breast	breast_cancer	Recurrence-based	coding	"oncogene, fusion"			1	0
+4602	MYB	26451490	WES	Gynecologic	breast	breast_cancer	MutSig	coding	"oncogene, fusion"			1	0
+4609	MYC	27135926	WGS	Gynecologic	breast	breast_cancer	Paper-specific	coding	"oncogene, fusion"			1	0
+4609	MYC	26939876	Gene Panel	Gynecologic	breast	triple_negative_breast_cancer	"Recurrence-based, Paper-specific"	coding	"oncogene, fusion"			1	0
+4893	NRAS	27135926	WGS	Gynecologic	breast	breast_cancer	Paper-specific	coding	oncogene	Oncogene	Oncogene	1	0
+4914	NTRK1	26939876	Gene Panel	Gynecologic	breast	triple_negative_breast_cancer	"Recurrence-based, Paper-specific"	coding	"oncogene, TSG, fusion"		Oncogene	1	0
+4916	NTRK3	26099045	WGS	Gynecologic	breast	breast_cancer	"Recurrence-based, Literature-based"	coding	"oncogene, fusion"		Oncogene	1	0
+4921	DDR2	26939876	Gene Panel	Gynecologic	breast	triple_negative_breast_cancer	"Recurrence-based, Paper-specific"	coding	oncogene		Oncogene	1	0
+5156	PDGFRA	27135926	WGS	Gynecologic	breast	breast_cancer	Paper-specific	coding	"oncogene, fusion"	Oncogene	Oncogene	1	0
+5290	PIK3CA	22722202	WES	Gynecologic	breast	breast_cancer	MutSig	coding	oncogene	Oncogene	Oncogene	1	0
+5290	PIK3CA	23000897	WES	Gynecologic	breast	breast_cancer	MuSiC	coding	oncogene	Oncogene	Oncogene	1	0
+5290	PIK3CA	26451490	WES	Gynecologic	breast	breast_cancer	MutSig	coding	oncogene	Oncogene	Oncogene	1	0
+5290	PIK3CA	29854292	WES	Gynecologic	breast	breast_cancer	SeqSig	coding	oncogene	Oncogene	Oncogene	1	0
+5290	PIK3CA	20668451	Gene Panel	Gynecologic	breast	breast_cancer	Wood-based	coding	oncogene	Oncogene	Oncogene	1	0
+5290	PIK3CA	28027327	WES	Gynecologic	breast	breast_cancer	MutSig	coding	oncogene	Oncogene	Oncogene	1	0
+5290	PIK3CA	22608084	WGS	Gynecologic	breast	breast_cancer	Literature-based	coding	oncogene	Oncogene	Oncogene	1	0
+5290	PIK3CA	27135926	WGS	Gynecologic	breast	breast_cancer	Paper-specific	coding	oncogene	Oncogene	Oncogene	1	0
+5290	PIK3CA	27161491	Gene Panel	Gynecologic	breast	breast_cancer	Recurrence-based	coding	oncogene	Oncogene	Oncogene	1	0
+5290	PIK3CA	26960396	Gene Panel	Gynecologic	breast	male_breast_cancer	MutSig	coding	oncogene	Oncogene	Oncogene	1	0
+5290	PIK3CA	22722201	WES	Gynecologic	breast	breast_cancer	Greenman-based	coding	oncogene	Oncogene	Oncogene	1	0
+5290	PIK3CA	26437033	WES-Gene Panel	Gynecologic	breast	breast_fibroepithelial_tumours	Recurrence-based	coding	oncogene	Oncogene	Oncogene	1	0
+5290	PIK3CA	26939876	Gene Panel	Gynecologic	breast	triple_negative_breast_cancer	"Recurrence-based, Paper-specific"	coding	oncogene	Oncogene	Oncogene	1	0
+5290	PIK3CA	26099045	WGS	Gynecologic	breast	breast_cancer	"Recurrence-based, Literature-based"	coding	oncogene	Oncogene	Oncogene	1	0
+5291	PIK3CB	26939876	Gene Panel	Gynecologic	breast	triple_negative_breast_cancer	"Recurrence-based, Paper-specific"	coding	oncogene		Oncogene	1	0
+5781	PTPN11	26939876	Gene Panel	Gynecologic	breast	triple_negative_breast_cancer	"Recurrence-based, Paper-specific"	coding	oncogene	Oncogene	Oncogene	1	0
+5914	RARA	26437033	WES-Gene Panel	Gynecologic	breast	breast_fibroepithelial_tumours	Recurrence-based	coding	"oncogene, fusion"			1	0
+5979	RET	20668451	Gene Panel	Gynecologic	breast	breast_cancer	Wood-based	coding	"oncogene, fusion"	Oncogene	Oncogene	1	0
+5979	RET	26939876	Gene Panel	Gynecologic	breast	triple_negative_breast_cancer	"Recurrence-based, Paper-specific"	coding	"oncogene, fusion"	Oncogene	Oncogene	1	0
+6098	ROS1	26437033	WES-Gene Panel	Gynecologic	breast	breast_fibroepithelial_tumours	Recurrence-based	coding	"oncogene, fusion"		Oncogene	1	0
+8358	H3C2	26099045	WGS	Gynecologic	breast	breast_cancer	"Recurrence-based, Literature-based"	coding	oncogene	Oncogene		1	0
+8405	SPOP	26939876	Gene Panel	Gynecologic	breast	triple_negative_breast_cancer	"Recurrence-based, Paper-specific"	coding	TSG	Oncogene	Oncogene	1	0
+10000	AKT3	26939876	Gene Panel	Gynecologic	breast	triple_negative_breast_cancer	"Recurrence-based, Paper-specific"	coding	oncogene		Oncogene	1	0
+10499	NCOA2	26939876	Gene Panel	Gynecologic	breast	triple_negative_breast_cancer	"Recurrence-based, Paper-specific"	coding	"oncogene, fusion"			1	0
+23451	SF3B1	23000897	WES	Gynecologic	breast	breast_cancer	MuSiC	coding	oncogene	Oncogene	Oncogene	1	0
+23451	SF3B1	26451490	WES	Gynecologic	breast	breast_cancer	MutSig	coding	oncogene	Oncogene	Oncogene	1	0
+23451	SF3B1	27135926	WGS	Gynecologic	breast	breast_cancer	Paper-specific	coding	oncogene	Oncogene	Oncogene	1	0
+23451	SF3B1	27161491	Gene Panel	Gynecologic	breast	breast_cancer	Recurrence-based	coding	oncogene	Oncogene	Oncogene	1	0
+23451	SF3B1	22722201	WES	Gynecologic	breast	breast_cancer	Greenman-based	coding	oncogene	Oncogene	Oncogene	1	0
+23451	SF3B1	26099045	WGS	Gynecologic	breast	breast_cancer	"Recurrence-based, Literature-based"	coding	oncogene	Oncogene	Oncogene	1	0
+27086	FOXP1	27135926	WGS	Gynecologic	breast	breast_cancer	Paper-specific	coding	"oncogene, fusion"			1	0
+27086	FOXP1	27161491	Gene Panel	Gynecologic	breast	breast_cancer	Recurrence-based	coding	"oncogene, fusion"			1	0
+80243	PREX2	27135926	WGS	Gynecologic	breast	breast_cancer	Paper-specific	coding	oncogene			1	0
+71	ACTG1	26451490	WES	Gynecologic	breast	breast_cancer	MutSig	coding					
+143	PARP4	26451490	WES	Gynecologic	breast	breast_cancer	MutSig	coding					
+186	AGTR2	27161491	Gene Panel	Gynecologic	breast	breast_cancer	Recurrence-based	coding					
+226	ALDOA	28658208	WES	Gynecologic	breast	breast_cancer	MutSigNC	noncoding					
+677	ZFP36L1	23000897	WES	Gynecologic	breast	breast_cancer	MuSiC	coding					
+677	ZFP36L1	26451490	WES	Gynecologic	breast	breast_cancer	MutSig	coding					
+677	ZFP36L1	27135926	WGS	Gynecologic	breast	breast_cancer	Paper-specific	coding					
+677	ZFP36L1	27161491	Gene Panel	Gynecologic	breast	breast_cancer	Recurrence-based	coding					
+777	CACNA1E	29854292	WES	Gynecologic	breast	breast_cancer	SeqSig	coding					
+794	CALB2	29854292	WES	Gynecologic	breast	breast_cancer	SeqSig	coding					
+1030	CDKN2B	27135926	WGS	Gynecologic	breast	breast_cancer	Paper-specific	coding					
+1030	CDKN2B	26939876	Gene Panel	Gynecologic	breast	triple_negative_breast_cancer	"Recurrence-based, Paper-specific"	coding					
+1495	CTNNA1	27161491	Gene Panel	Gynecologic	breast	breast_cancer	Recurrence-based	coding					
+1520	CTSS	26451490	WES	Gynecologic	breast	breast_cancer	MutSig	coding					
+1549	CYP2A7	29854292	WES	Gynecologic	breast	breast_cancer	SeqSig	coding					
+1635	DCTD	26451490	WES	Gynecologic	breast	breast_cancer	MutSig	coding					
+1789	DNMT3B	26939876	Gene Panel	Gynecologic	breast	triple_negative_breast_cancer	"Recurrence-based, Paper-specific"	coding					
+2047	EPHB1	26939876	Gene Panel	Gynecologic	breast	triple_negative_breast_cancer	"Recurrence-based, Paper-specific"	coding					
+2312	FLG	29854292	WES	Gynecologic	breast	breast_cancer	SeqSig	coding					
+2334	AFF2	23000897	WES	Gynecologic	breast	breast_cancer	MuSiC	coding					
+2737	GLI3	29854292	WES	Gynecologic	breast	breast_cancer	SeqSig	coding					
+2854	GPR32	23000897	WES	Gynecologic	breast	breast_cancer	MuSiC	coding					
+2874	GPS2	23000897	WES	Gynecologic	breast	breast_cancer	MuSiC	coding					
+2874	GPS2	26451490	WES	Gynecologic	breast	breast_cancer	MutSig	coding					
+2874	GPS2	27161491	Gene Panel	Gynecologic	breast	breast_cancer	Recurrence-based	coding					
+2891	GRIA2	26451490	WES	Gynecologic	breast	breast_cancer	MutSig	coding					
+2902	GRIN1	29854292	WES	Gynecologic	breast	breast_cancer	SeqSig	coding					
+2909	ARHGAP35	26451490	WES	Gynecologic	breast	breast_cancer	MutSig	coding					
+3123	HLA-DRB1	26451490	WES	Gynecologic	breast	breast_cancer	MutSig	coding					
+3480	IGF1R	27135926	WGS	Gynecologic	breast	breast_cancer	Paper-specific	coding					
+3480	IGF1R	26939876	Gene Panel	Gynecologic	breast	triple_negative_breast_cancer	"Recurrence-based, Paper-specific"	coding					
+3782	KCNN3	26451490	WES	Gynecologic	breast	breast_cancer	MutSig	coding					
+3956	LGALS1	26451490	WES	Gynecologic	breast	breast_cancer	MutSig	coding					
+4170	MCL1	26939876	Gene Panel	Gynecologic	breast	triple_negative_breast_cancer	"Recurrence-based, Paper-specific"	coding					
+4485	MST1	26451490	WES	Gynecologic	breast	breast_cancer	MutSig	coding					
+4681	NBL1	26451490	WES	Gynecologic	breast	breast_cancer	MutSig	coding					
+4751	NEK2	20668451	Gene Panel	Gynecologic	breast	breast_cancer	Wood-based	coding					
+4854	NOTCH3	26939876	Gene Panel	Gynecologic	breast	triple_negative_breast_cancer	"Recurrence-based, Paper-specific"	coding					
+4953	ODC1	29854292	WES	Gynecologic	breast	breast_cancer	SeqSig	coding					
+5076	PAX2	26451490	WES	Gynecologic	breast	breast_cancer	MutSig	coding					
+5289	PIK3C3	26451490	WES	Gynecologic	breast	breast_cancer	MutSig	coding					
+5293	PIK3CD	26939876	Gene Panel	Gynecologic	breast	triple_negative_breast_cancer	"Recurrence-based, Paper-specific"	coding					
+5587	PRKD1	29854292	WES	Gynecologic	breast	breast_cancer	SeqSig	coding					
+5737	PTGFR	20668451	Gene Panel	Gynecologic	breast	breast_cancer	Wood-based	coding					
+6103	RPGR	23000897	WES	Gynecologic	breast	breast_cancer	MuSiC	coding					
+6103	RPGR	26451490	WES	Gynecologic	breast	breast_cancer	MutSig	coding					
+6561	SLC13A1	29854292	WES	Gynecologic	breast	breast_cancer	SeqSig	coding					
+6738	RO60	26451490	WES	Gynecologic	breast	breast_cancer	MutSig	coding					
+6790	AURKA	26939876	Gene Panel	Gynecologic	breast	triple_negative_breast_cancer	"Recurrence-based, Paper-specific"	coding					
+6954	TCP11	26451490	WES	Gynecologic	breast	breast_cancer	MutSig	coding					
+7188	TRAF5	20668451	Gene Panel	Gynecologic	breast	breast_cancer	Wood-based	coding					
+7399	USH2A	23000897	WES	Gynecologic	breast	breast_cancer	MuSiC	coding					
+7494	XBP1	27135926	WGS	Gynecologic	breast	breast_cancer	Paper-specific	coding					
+7576	ZNF28	26451490	WES	Gynecologic	breast	breast_cancer	MutSig	coding					
+7581	ZNF33A	29854292	WES	Gynecologic	breast	breast_cancer	SeqSig	coding					
+7702	ZNF143	28658208	WES	Gynecologic	breast	breast_cancer	MutSigNC	noncoding					
+7764	ZNF217	27135926	WGS	Gynecologic	breast	breast_cancer	Paper-specific	coding					
+8202	NCOA3	26451490	WES	Gynecologic	breast	breast_cancer	MutSig	coding					
+8239	USP9X	27135926	WGS	Gynecologic	breast	breast_cancer	Paper-specific	coding					
+8239	USP9X	27161491	Gene Panel	Gynecologic	breast	breast_cancer	Recurrence-based	coding					
+8507	ENC1	29854292	WES	Gynecologic	breast	breast_cancer	SeqSig	coding					
+8590	OR6A2	23000897	WES	Gynecologic	breast	breast_cancer	MuSiC	coding					
+9439	MED23	27135926	WGS	Gynecologic	breast	breast_cancer	Paper-specific	coding					
+9514	GAL3ST1	26451490	WES	Gynecologic	breast	breast_cancer	MutSig	coding					
+9721	GPRIN2	26451490	WES	Gynecologic	breast	breast_cancer	MutSig	coding					
+9750	RIPOR2	29854292	WES	Gynecologic	breast	breast_cancer	SeqSig	coding					
+9860	LRIG2	26451490	WES	Gynecologic	breast	breast_cancer	MutSig	coding					
+10046	MAMLD1	29854292	WES	Gynecologic	breast	breast_cancer	SeqSig	coding					
+10370	CITED2	28658208	WES	Gynecologic	breast	breast_cancer	MutSigNC	noncoding					
+10763	NES	29854292	WES	Gynecologic	breast	breast_cancer	SeqSig	coding					
+10797	MTHFD2	29854292	WES	Gynecologic	breast	breast_cancer	SeqSig	coding					
+10801	SEPTIN9	20668451	Gene Panel	Gynecologic	breast	breast_cancer	Wood-based	coding					
+10849	POLR1G	26451490	WES	Gynecologic	breast	breast_cancer	MutSig	coding					
+10983	CCNI	26451490	WES	Gynecologic	breast	breast_cancer	MutSig	coding					
+10992	SF3B2	23000897	WES	Gynecologic	breast	breast_cancer	MuSiC	coding					
+10992	SF3B2	26451490	WES	Gynecologic	breast	breast_cancer	MutSig	coding					
+10992	SF3B2	27135926	WGS	Gynecologic	breast	breast_cancer	Paper-specific	coding					
+10992	SF3B2	27161491	Gene Panel	Gynecologic	breast	breast_cancer	Recurrence-based	coding					
+10992	SF3B2	22722201	WES	Gynecologic	breast	breast_cancer	Greenman-based	coding					
+10992	SF3B2	26099045	WGS	Gynecologic	breast	breast_cancer	"Recurrence-based, Literature-based"	coding					
+11174	ADAMTS6	26451490	WES	Gynecologic	breast	breast_cancer	MutSig	coding					
+22894	DIS3	26939876	Gene Panel	Gynecologic	breast	triple_negative_breast_cancer	"Recurrence-based, Paper-specific"	coding					
+23166	STAB1	29854292	WES	Gynecologic	breast	breast_cancer	SeqSig	coding					
+23232	TBC1D12	27135926	WGS	Gynecologic	breast	breast_cancer	Paper-specific	noncoding					
+23232	TBC1D12	28658208	WES	Gynecologic	breast	breast_cancer	MutSigNC	noncoding					
+23345	SYNE1	26437033	WES-Gene Panel	Gynecologic	breast	breast_fibroepithelial_tumours	Recurrence-based	coding					
+23504	RIMBP2	29854292	WES	Gynecologic	breast	breast_cancer	SeqSig	coding					
+26191	PTPN22	23000897	WES	Gynecologic	breast	breast_cancer	MuSiC	coding					
+27316	RBMX	26451490	WES	Gynecologic	breast	breast_cancer	MutSig	coding					
+29028	ATAD2	26451490	WES	Gynecologic	breast	breast_cancer	MutSig	coding					
+29110	TBK1	26939876	Gene Panel	Gynecologic	breast	triple_negative_breast_cancer	"Recurrence-based, Paper-specific"	coding					
+50616	IL22	29854292	WES	Gynecologic	breast	breast_cancer	SeqSig	coding					
+51135	IRAK4	20668451	Gene Panel	Gynecologic	breast	breast_cancer	Wood-based	coding					
+51412	ACTL6B	26451490	WES	Gynecologic	breast	breast_cancer	MutSig	coding					
+54443	ANLN	29854292	WES	Gynecologic	breast	breast_cancer	SeqSig	coding					
+54663	WDR74	27135926	WGS	Gynecologic	breast	breast_cancer	Paper-specific	noncoding					
+54665	RSBN1	29854292	WES	Gynecologic	breast	breast_cancer	SeqSig	coding					
+54874	FNBP1L	29854292	WES	Gynecologic	breast	breast_cancer	SeqSig	coding					
+54897	CASZ1	26451490	WES	Gynecologic	breast	breast_cancer	MutSig	coding					
+55164	SHQ1	26939876	Gene Panel	Gynecologic	breast	triple_negative_breast_cancer	"Recurrence-based, Paper-specific"	coding					
+55770	EXOC2	20668451	Gene Panel	Gynecologic	breast	breast_cancer	Wood-based	coding					
+57127	RHBG	26451490	WES	Gynecologic	breast	breast_cancer	MutSig	coding					
+57520	HECW2	29854292	WES	Gynecologic	breast	breast_cancer	SeqSig	coding					
+57521	RPTOR	26939876	Gene Panel	Gynecologic	breast	triple_negative_breast_cancer	"Recurrence-based, Paper-specific"	coding					
+57674	RNF213	29854292	WES	Gynecologic	breast	breast_cancer	SeqSig	coding					
+57680	CHD8	26437033	WES-Gene Panel	Gynecologic	breast	breast_fibroepithelial_tumours	Recurrence-based	coding					
+58499	ZNF462	29854292	WES	Gynecologic	breast	breast_cancer	SeqSig	coding					
+64343	AZI2	29854292	WES	Gynecologic	breast	breast_cancer	SeqSig	coding					
+64430	PCNX4	26437033	WES-Gene Panel	Gynecologic	breast	breast_fibroepithelial_tumours	Recurrence-based	coding					
+64579	NDST4	29854292	WES	Gynecologic	breast	breast_cancer	SeqSig	coding					
+64750	SMURF2	29854292	WES	Gynecologic	breast	breast_cancer	SeqSig	coding					
+65220	NADK	26451490	WES	Gynecologic	breast	breast_cancer	MutSig	coding					
+79707	NOL9	29854292	WES	Gynecologic	breast	breast_cancer	SeqSig	coding					
+79767	ELMO3	29854292	WES	Gynecologic	breast	breast_cancer	SeqSig	coding					
+79809	TTC21B	29854292	WES	Gynecologic	breast	breast_cancer	SeqSig	coding					
+79836	LONRF3	29854292	WES	Gynecologic	breast	breast_cancer	SeqSig	coding					
+79949	PLEKHS1	27135926	WGS	Gynecologic	breast	breast_cancer	Paper-specific	noncoding					
+79977	GRHL2	29854292	WES	Gynecologic	breast	breast_cancer	SeqSig	coding					
+80031	SEMA6D	29854292	WES	Gynecologic	breast	breast_cancer	SeqSig	coding					
+83481	EPPK1	29854292	WES	Gynecologic	breast	breast_cancer	SeqSig	coding					
+83737	ITCH	20668451	Gene Panel	Gynecologic	breast	breast_cancer	Wood-based	coding					
+84191	CIAO2A	29854292	WES	Gynecologic	breast	breast_cancer	SeqSig	coding					
+84992	PIGY	27135926	WGS	Gynecologic	breast	breast_cancer	Paper-specific	noncoding					
+114907	FBXO32	20668451	Gene Panel	Gynecologic	breast	breast_cancer	Wood-based	coding					
+115273	RAB42	26451490	WES	Gynecologic	breast	breast_cancer	MutSig	coding					
+116039	OSR2	29854292	WES	Gynecologic	breast	breast_cancer	SeqSig	coding					
+118788	PIK3AP1	29854292	WES	Gynecologic	breast	breast_cancer	SeqSig	coding					
+120776	OR2D2	26451490	WES	Gynecologic	breast	breast_cancer	MutSig	coding					
+134359	POC5	29854292	WES	Gynecologic	breast	breast_cancer	SeqSig	coding					
+138009	DCAF4L2	23000897	WES	Gynecologic	breast	breast_cancer	MuSiC	coding					
+143162	FRMPD2	26451490	WES	Gynecologic	breast	breast_cancer	MutSig	coding					
+147007	TMEM199	26451490	WES	Gynecologic	breast	breast_cancer	MutSig	coding					
+148113	CILP2	29854292	WES	Gynecologic	breast	breast_cancer	SeqSig	coding					
+149076	ZNF362	26451490	WES	Gynecologic	breast	breast_cancer	MutSig	coding					
+151742	PPM1L	20668451	Gene Panel	Gynecologic	breast	breast_cancer	Wood-based	coding					
+158067	AK8	29854292	WES	Gynecologic	breast	breast_cancer	SeqSig	coding					
+161436	EML5	29854292	WES	Gynecologic	breast	breast_cancer	SeqSig	coding					
+165100	TEX44	29854292	WES	Gynecologic	breast	breast_cancer	SeqSig	coding					
+166336	PRICKLE2	29854292	WES	Gynecologic	breast	breast_cancer	SeqSig	coding					
+219654	ZCCHC24	29854292	WES	Gynecologic	breast	breast_cancer	SeqSig	coding					
+283446	MYO1H	29854292	WES	Gynecologic	breast	breast_cancer	SeqSig	coding					
+283748	PLA2G4D	29854292	WES	Gynecologic	breast	breast_cancer	SeqSig	coding					
+285220	EPHA6	26939876	Gene Panel	Gynecologic	breast	triple_negative_breast_cancer	"Recurrence-based, Paper-specific"	coding					
+326625	MMAB	27135926	WGS	Gynecologic	breast	breast_cancer	Paper-specific	coding					
+339977	LRRC66	29854292	WES	Gynecologic	breast	breast_cancer	SeqSig	coding					
+359948	IRF2BP2	27135926	WGS	Gynecologic	breast	breast_cancer	Paper-specific	noncoding					
+375318	AQP12A	26451490	WES	Gynecologic	breast	breast_cancer	MutSig	coding					
+388697	HRNR	26451490	WES	Gynecologic	breast	breast_cancer	MutSig	coding					
+728276	CLEC19A	23000897	WES	Gynecologic	breast	breast_cancer	MuSiC	coding					
